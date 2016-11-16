@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSiSP_Labs_7_Driver", "OSiSP_Labs_7_Driver.vcxproj", "{5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSiSP_Labs_7_Process_Manager", "..\OSiSP_Labs_7_Process_Manager\OSiSP_Labs_7_Process_Manager.vcxproj", "{3CB2E0DB-BA7A-4548-9B90-A16B68FF1E6C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C} = {5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C}.Debug|Win32.Build.0 = Debug|Win32
+		{5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C}.Release|Win32.ActiveCfg = Release|Win32
+		{5CBCB41C-7CCF-4E38-A6DC-9E923C38FE6C}.Release|Win32.Build.0 = Release|Win32
+		{3CB2E0DB-BA7A-4548-9B90-A16B68FF1E6C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3CB2E0DB-BA7A-4548-9B90-A16B68FF1E6C}.Debug|Win32.Build.0 = Debug|Win32
+		{3CB2E0DB-BA7A-4548-9B90-A16B68FF1E6C}.Release|Win32.ActiveCfg = Release|Win32
+		{3CB2E0DB-BA7A-4548-9B90-A16B68FF1E6C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DDKLaunchParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DebugConnectionString>pipe://\\Nuskit\pipe\kd_Windows_XP_Pro_Driver_Client</DebugConnectionString>
+  <RemoteMachineHostname />
+  <PathOnTarget>%SystemRoot%\System32\Drivers\OSiSP_Labs_7_Driver.sys</PathOnTarget>
+  <StartMode>LegacyStartStop</StartMode>
+  <StartModeArg>OSiSP_Labs_7_Driver</StartModeArg>
+  <StartModeIntArg>0</StartModeIntArg>
+  <StopMode>LegacyStartStop</StopMode>
+  <StopModeArg>OSiSP_Labs_7_Driver</StopModeArg>
+  <StopModeIntArg>0</StopModeIntArg>
+  <KeepSessionWhenDriverUnloads>false</KeepSessionWhenDriverUnloads>
+  <AutoInstallPolicy>AutoInstallInteractive</AutoInstallPolicy>
+</DDKLaunchParams>
